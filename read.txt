@@ -1,1 +1,6 @@
-hello
+git init
+git add .
+git commit -m "..."
+git log / status
+git remote add origin "github url"
+git push -u origin master
