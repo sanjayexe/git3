@@ -1,0 +1,59 @@
+.navbar-nav .nav-link:hover {
+  color: white;
+}
+.navbar-nav .btn {
+  font-size: small;
+  background-color: blue;
+  color: white;
+  border: solid;
+}
+.navbar-nav .btn:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.5s;
+  border-color: black;
+}
+.carousel {
+  height: 300px;
+}
+.carousel img {
+  height: 300px;
+  object-fit: fill;
+}
+.carousel button {
+  font-weight: bolder;
+}
+.col {
+  cursor: pointer;
+  font-size: 3em;
+}
+.cht {
+  border: solid 1px black;
+}
+.modal {
+  color: whitesmoke;
+}
+.modal .modal-header {
+  background-color: darkblue;
+}
+
+/*scroll to top */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color: #0d6efd;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#myBtn:hover {
+  background-color: blue;
+}

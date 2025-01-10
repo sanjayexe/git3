@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOV.CHATBOT</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="bg-primary">
+        <nav class="navbar container navbar-expand-lg mb-2">
+            <a href="" class="navbar-brand fw-bolder fs-3 ">TN Gov Employee Helpdesk</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item fw-bold "><a href="index.html" class="nav-link">HOME</a></li>
+                    <li class="nav-item fw-bold "><a href="#departments" class="nav-link">DEPARTMENTS</a></li>
+                    <li class="nav-item fw-bold "><a href="#about_us" class="nav-link">ABOUT US</a></li>
+                    <li class="nav-item fw-bold "><a href="#FAQs" class="nav-link">FAQs</a></li>
+                    <a href="" class="nav-item  my-auto"> <button class="btn  fw-bold" type="">Login |
+                            Register</button></a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i
+            class="fa-solid fa-arrow-up fa-beat-fade"></i></button>
+    <!--carosal-->
+    <div id="carousel" class="carousel slide carousel-dark carousel-fadec container rounded-4 my-auto"
+        data-bs-ride="carousel">
+        <div class="carousel-inner rounded-4">
+            <div class="carousel-item active">
+                <img src="images/carousal_img1.png" class="d-block w-100 img-fluid" alt="..." data-bs-interval="500">
+            </div>
+            <div class="carousel-item">
+                <img src="images/caurosal_img2.png" class="d-block w-100 img-fluid" alt="..." data-bs-interval="1000">
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousal_img3.png" class="d-block w-100 img-fluid" alt="..." data-bs-interval="1000">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--carousel end-->
+
+
+    <!--empowering tn govt-->
+    <div class="cht container my-4 w-50 rounded-3 p-4">
+        <h4 class="fw-bold">Empowering TN Government Employees</h4>
+        <p class="fw-medium pb-4">Get instant support and answer to your queries across various departments with our
+            AI-powered chatbot</p>
+
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#chatbot">Chat Now</button>
+    </div>
+
+    <!--chatbot-->
+    <div class="modal  fade" id="chatbot" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable w-auto">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Helpdesk chatbot</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    dsf
+                </div>
+                <div class="modal-footer bg-secondary-subtle">
+                    <div class="me-auto d-flex">
+                        <input type="text" placeholder="Type your message here..." class="p-2 rounded-3 border-1 me-3">
+                        <button type="submit" class="btn btn-primary">send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--departments-->
+    <div class="bg-body-secondary p-3" id="departments">
+        <section class="container mt-5 ">
+            <h4 class="mb-5 fw-bold text-center">Discover Datasets By Sectors</h4>
+            <p>This service is dedicated to providing immediate assistance to all government employees of Tamil Nadu. If
+                you have any
+                questions or need support, our chatbot is here to help you 24/7.</p>
+            <div class="row">
+                <div class="col gap-4  col-6 col-lg-2  col-sm-4 col-md-3 text-center">
+                    <i class="fa-solid fa-cow " style="color: #470aff;"></i>
+                    <h4 class="">Agriculture</h4>
+                </div>
+
+                <div class="col  col-6 col-lg-2  col-sm-4 col-md-3 text-center">
+                    <i class="fa-solid fa-house" style="color: #470aff;"></i>
+                    <h4 class="">Housing</h4>
+                </div>
+                <div class="col  col-6 col-lg-2  col-sm-4 col-md-3 text-center">
+                    <i class="fa-solid fa-school" style="color: #470aff;"></i>
+                    <h4 class="text-center">Education</h4>
+                </div>
+                <div class="  col  col-6 col-lg-2  col-sm-4 col-md-3 text-center">
+                    <a href="" class="nav-link"></a>
+                    <i class="fa-solid fa-heart-pulse" style="color: #470aff;"></i>
+                    <h4 class="text-center">Health</h4>
+                    </a>
+                </div>
+                <div class="  col  col-6 col-lg-2  col-sm-4 col-md-3 text-center">
+                    <a href="" class="nav-link"></a>
+                    <i class="fa-solid fa-scale-balanced" style="color: #470aff;"></i>
+                    <h4 class="text-center">Legal</h4>
+                    </a>
+                </div>
+                <div class="  col  col-6 col-lg-2  col-sm-4 col-md-3 text-center">
+                    <a href="" class="nav-link"></a>
+                    <i class="fa-solid fa-building" style="color: #470aff;"></i>
+                    <h4 class="text-center">Housing</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--departments end-->
+
+    <!--FAQs-->
+    <div class="container my-4" id="FAQs">
+        <h4 class="fw-bold mb-3 me-auto text-center">
+            Frequently Asked Questions
+        </h4>
+        <div class="accordion " id="accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header fw-bold" id="h1">
+                    <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#1" aria-expanded="true" aria-controls="1">How can i access the chatbot
+                        services</button>
+                </h2>
+                <div id="1" class="accordion-collapse collapse" aria-labelledby="h1" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        You can access the chatbot service by visiting the official Tamil Nadu Government Helpdesk
+                        portal and clicking on the
+                        chat icon.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header fw-bold" id="h2">
+                    <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#2" aria-expanded="false" aria-controls="2">What type of queries can the
+                        chatbot
+                        handle?</button>
+                </h2>
+                <div id="2" class="accordion-collapse collapse" aria-labelledby="h2" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        The chatbot is designed to handle a wide range of queries related to the services offered by
+                        various departments of the
+                        Tamil Nadu government.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header fw-bold" id="h3">
+                    <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#3" aria-expanded="false" aria-controls="3">Is there a helpline number for
+                        direct assistance?</button>
+                </h2>
+                <div id="3" class="accordion-collapse collapse" aria-labelledby="h3" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        Yes, you can reach out to our helpline at 1800-123-4567 for direct assistance during working
+                        hours.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header fw-bold" id="h4">
+                    <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#4" aria-expanded="false" aria-controls="4">Can I report technical issues
+                        with
+                        the chatbot?</button>
+                </h2>
+                <div id="4" class="accordion-collapse collapse" aria-labelledby="h4" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        Absolutely, if you encounter any technical issues with the chatbot, please report them using
+                        the
+                        feedback form on our
+                        website.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header fw-bold" id="h5">
+                    <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#5" aria-expanded="false" aria-controls="5">Is the chatbot available in
+                        multiple
+                        languages?</button>
+                </h2>
+                <div id="5" class="accordion-collapse collapse" aria-labelledby="h5" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        Yes, the chatbot is available in both English and Tamil to cater to a wider audience.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FAQs end-->
+
+    <!--about us-->
+    <div class="bg-body-secondary" id="about_us">
+        <div class="container p-4">
+            <h4 class="fw-bold text-center ">ABOUT US</h4>
+            <div class="my-5">
+                <h4>Our Mission</h4>
+                <p class="fw-medium text-dark-emphasis">The Tamil Nadu Government Helpdesk is dedicated to providing
+                    seamless
+                    support to all
+                    government employees
+                    across various
+                    departments. Our mission is to facilitate quick and efficient resolution of queries and issues,
+                    enabling
+                    employees to
+                    focus on their core responsibilities without unnecessary delays.</p>
+            </div>
+            <div class="my-5">
+                <h4>How We Operate</h4>
+                <p class="fw-medium text-dark-emphasis">Our helpdesk operates through an advanced chatbot system that
+                    utilizes artificial intelligence to understand and address
+                    common concerns. For more complex issues, the chatbot can escalate the query to a human
+                    representative
+                    who will provide
+                    personalized assistance. We ensure that all interactions are secure, private, and tailored to meet
+                    the
+                    needs of our
+                    employees.</p>
+            </div>
+            <div class="my-5">
+                <h4>Why Choose Us</h4>
+                <p class="fw-medium text-dark-emphasis">We are committed to innovation and continuous improvement. Our
+                    chatbot is regularly updated with the latest information
+                    and trained on new queries to provide the most accurate responses. With round-the-clock availability
+                    and
+                    multilingual
+                    support, we strive to be the most reliable resource for Tamil Nadu's government workforce.</p>
+            </div>
+        </div>
+    </div>
+    <!--about us end-->
+    <footer class="fw-medium text-center bg-primary p-2">&copy;
+        <script>document.write(new Date().getFullYear())</script>
+        Tamilnadu Government Employee helpdesk. All
+        rights
+        reserved
+    </footer>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script>
+    let mybutton = document.getElementById("myBtn");
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+</html>
